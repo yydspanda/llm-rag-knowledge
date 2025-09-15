@@ -18,7 +18,7 @@ from typing import List, TypedDict
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
-from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
+from langchain_core.messages import BaseMessage, HumanMessage, AIMessage,ToolMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_deepseek import ChatDeepSeek
